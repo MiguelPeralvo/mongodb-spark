@@ -7,5 +7,5 @@ cd ${DIR}
 spark-submit \
   --class example.MovieRecommendation \
   --master local[*] \
-  --packages org.mongodb.spark:mongo-spark-connector_2.10:0.4 \
+  --packages org.mongodb.spark:mongo-spark-connector_2.10:1.0.0 \
   ${DIR}/target/scala-2.10/movieRecommendations_2.10-0.1.jar
